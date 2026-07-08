@@ -1,0 +1,48 @@
+body{
+    font-family:Arial,sans-serif;
+    text-align:center;
+    margin:40px;
+    background:#f4f4f4;
+}
+
+button{
+    padding:10px 20px;
+    margin:10px;
+    cursor:pointer;
+}
+
+#output{
+    margin-top:30px;
+}
+ul {
+    list-style-position: inside;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    margin: 5px 0;
+}
+#loading {
+    font-weight: bold;
+    color: blue;
+    margin: 20px;
+}
+
+.notification-card {
+    background: white;
+    padding: 15px;
+    margin: 10px auto;
+    width: 60%;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px gray;
+}
+.notification-card,
+.card{
+    background:white;
+    padding:20px;
+    margin:15px auto;
+    width:80%;
+    border-radius:10px;
+    box-shadow:0 2px 5px rgba(0,0,0,0.2);
+}
